@@ -5,6 +5,7 @@ body {
 
 header {
     height: 72px;
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
 }
 
 hr {
@@ -20,7 +21,6 @@ hr {
     margin-right: auto;
     height: 100%;
     background: #FFFFFF;
-    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
 }
 
 .row_header {
@@ -300,17 +300,33 @@ footer {
 }
 
 .lang-select {
+    display: flex;
     margin-top: 32px;
+    margin-bottom: 32px;
     width: 227px;
-    height: 40px;
-    background: #3B3B3B;
     border-radius: 2px;
+    border-radius: 2px;
+    height: 40px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     line-height: normal;
     font-size: 13px;
     color: #FFFFFF;
+    justify-content: flex-start;
+    align-items: center;
+    background: #3b3b3b url(../images/if_icon-ios7-arrow-back_211686.svg) no-repeat center right 8px;
+    padding-left: 16px;
+}
+
+.lang-select p{
+    line-height: 15px;
+    background: #3B3B3B;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 8px;
+    border-radius: 2px;
+
 }
 
 .hashtag {
