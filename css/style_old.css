@@ -34,9 +34,7 @@ hr {
     margin-top: auto;
 }
 
-.logo,
-.addressdelivery,
-.btns {
+.logo, .addressdelivery, .btns {
     box-sizing: border-box;
     flex-wrap: nowrap;
     margin-bottom: auto;
@@ -52,16 +50,13 @@ hr {
     justify-content: space-between;
 }
 
-.asap,
-.adress,
-.to {
+.asap, .adress, .to {
     height: 40px;
     display: flex;
     align-items: center;
 }
 
-.asap,
-.adress {
+.asap, .adress {
     border: 1px solid #E0E0E0;
     box-sizing: border-box;
     border-radius: 2px;
@@ -87,8 +82,7 @@ hr {
     justify-content: flex-end;
 }
 
-.register,
-.signin {
+.register, .signin {
     width: 80px;
     height: 40px;
     border-radius: 2px;
@@ -141,8 +135,7 @@ hr {
     border-bottom: #757575 1px solid;
 }
 
-.searchbeauty_img,
-.searchbeauty {
+.searchbeauty_img, .searchbeauty {
     display: inline;
     position: relative;
     top: -40px;
@@ -196,18 +189,7 @@ div:hover .restsearch {
     margin-right: -8px;
 }
 
-.col-1,
-.col-2,
-.col-3,
-.col-4,
-.col-5,
-.col-6,
-.col-7,
-.col-8,
-.col-9,
-.col-10,
-.col-11,
-.col-12 {
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
     padding-left: 8px;
     padding-right: 8px;
     box-sizing: border-box;
@@ -319,14 +301,13 @@ footer {
     padding-left: 16px;
 }
 
-.lang-select p{
+.lang-select p {
     line-height: 15px;
     background: #3B3B3B;
     margin-bottom: auto;
     margin-top: auto;
     margin-left: 8px;
     border-radius: 2px;
-
 }
 
 .hashtag {
@@ -385,7 +366,7 @@ footer {
     flex-wrap: nowrap;
 }
 
-.google_play,.app_store {
+.google_play, .app_store {
     padding-left: 20px;
     padding-right: 20px;
 }
