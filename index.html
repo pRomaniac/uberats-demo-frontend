@@ -15,47 +15,42 @@
     <header class="header">
         <div class="header__container">
             <div class="header__container__row">
+                <!--что с бывшими col делать надо разобраться, имхо надо их удалять-->
                 <div class="col-3">
                     <div class="header__container__row__logo">
-                        <img src="./images/logo.svg" alt="logo" title="UberEats">
+                        <img class="header__container__row__logo_img" src="./images/logo.svg" alt="logo" title="UberEats">
                     </div>
                 </div>
                 <div class="col-5">
                     <div class="header__container__row__addressdelivery">
-                        <div class="asap">ASAP</div>
-                        <div class="to">to</div>
-                        <div class="adress">
+                        <div class="header__container__row__addressdelivery_asap">ASAP</div>
+                        <div class="header__container__row__addressdelivery_to">to</div>
+                        <div class="header__container__row__addressdelivery_adress">
+                            <!--Вот тут не понятно, надо разобраться с этим тегом-->
                             <img class="locationimg" src="./images/location.svg">ul. Bolshaya Dmitrovka,22</div>
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="header__container__row__btns">
-                        <a class="signin">Sign In</a>
-                        <a class="register">Register</a>
-                        <a class="bascet"></a>
+                        <a class="header__container__row__btns_signin">Sign In</a>
+                        <a class="header__container__row__btns_register">Register</a>
+                        <a class="header__container__row__btns_basket"></a>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <section class="search">
-                    <input class="restsearch" type="text"></input>
-                    <div class="searchbeauty_img">
-                        <img src="./images/search.svg">
-
-                    </div>
-                    <div class="searchbeauty">
-                        <!--img src="../images/search.svg"-->
-                        Search for restaurant or cuisine
-                    </div>
-                </section>
-            </div>
+    <section class="search-field">
+        <input class="search-field__restsearch" type="text"></input>
+        <div class="searchbeauty_img">
+            <img src="./images/search.svg">
         </div>
-    </div>
-    <main>
+        <div class="search-field__searchbeauty">
+            <!--img src="../images/search.svg"-->
+            Search for restaurant or cuisine
+        </div>
+    </section>
+    <main class="cards">
         <div class="container">
             <div class="row">
                 <div class="col-12">

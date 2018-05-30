@@ -1,1 +1,4 @@
 fonts/
+node_modules/
+yarn.lock
+.gitignore
