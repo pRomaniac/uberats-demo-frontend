@@ -1,0 +1,225 @@
+body {
+    background: #ffffff;
+    font-family: Roboto;
+}
+
+hr {
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+
+.header {
+    height: 72px;
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+}
+
+.header__container {
+    background: lightgray;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    background: #FFFFFF;
+}
+
+.header__container__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-Items: center;
+    flex-wrap: wrap;
+    height: 72px;
+    margin-bottom: auto;
+    margin-top: auto;
+    padding-top: 16px;
+}
+
+.header__container__row__col-1, .header__container__row__col-2, .header__container__row__col-3, .header__container__row__col-4, .header__container__row__col-5, .header__container__row__col-6, .header__container__row__col-7, .header__container__row__col-8, .header__container__row__col-9, .header__container__row__col-10, .header__container__row__col-11, .header__container__row__col-12 {
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+
+.header__container__row__col-1 {
+    flex-basis: 8.3333%;
+}
+
+.header__container__row__col-2 {
+    flex-basis: 16.6666%;
+}
+
+.header__container__row__col-3 {
+    flex-basis: 25%;
+}
+
+.header__container__row__col-4 {
+    flex-basis: 33.3333%;
+}
+
+.header__container__row__col-5 {
+    flex-basis: 41.66666%;
+}
+
+/* .header__container__row__col-6 {
+    flex-basis: 50%;
+} */
+
+.header__container__row__col-7 {
+    flex-basis: 58.3333%;
+}
+
+.header__container__row__col-8 {
+    flex-basis: 66.6666%;
+}
+
+.header__container__row__col-9 {
+    flex-basis: 75%;
+}
+
+.header__container__row__col-10 {
+    flex-basis: 83.3333%;
+}
+
+.header__container__row__col-11 {
+    flex-basis: 91.6666%;
+}
+
+.header__container__row__col-12 {
+    flex-basis: 100%;
+}
+
+.header__container__row__logo {
+    flex-basis: 25%;
+    order: 1;
+    padding-left: 8px;
+    padding-top: 4px;
+}
+
+.search-field {
+    flex-basis: 100%;
+    order: 3;
+}
+
+.header__container__row__addressdelivery {
+    flex-basis: 100%;
+    order: 4;
+}
+
+.header__container__row__btns_basket {
+    width: 40px;
+    margin-left: 8px;
+    background-image: url(../images/basket.svg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+.header__container__row__btns {
+    flex-basis: 50%;
+    order: 2;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4px;
+}
+
+.header__container__row__btns_register, .header__container__row__btns_signin {
+    width: 72px;
+    height: 40px;
+    border-radius: 2px;
+    line-height: 24px;
+    font-size: 11px;
+    font-weight: 500;
+    margin-left: 8px;
+    /* margin-right: 8px; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__container__row__btns_signin {
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.header__container__row__btns_register {
+    background: #262626;
+    color: #FFFFFF;
+}
+
+.search-field {
+    margin-top: 32px;
+    border-bottom: #757575 1px solid;
+    height: 64px;
+}
+
+.search-field__restsearch {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 48px;
+    line-height: 24px;
+    font-family: Roboto;
+    font-size: 13px;
+    opacity: 0.3;
+    z-index: 2;
+    border: 0;
+}
+
+.search-field__restsearch_searchbeauty_img, .search-field__searchbeauty {
+    display: inline;
+    position: relative;
+    top: -32px;
+    Line-Height: 24px;
+    font-size: 13px;
+    text-Align: Left;
+    color: #626262;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.search-field__restsearch_searchbeauty_img {
+    margin-left: 0px;
+    top: -22px;
+    left: 8px;
+}
+
+.search-field__restsearch_searchbeauty_img_image {
+        height: 16px;
+    /* box-sizing: border-box; */
+
+}
+.search-field__searchbeauty {
+    margin-left: 12px;
+    top: -26px;
+}
+
+div:hover .search-field__searchbeauty {
+    visibility: hidden;
+}
+
+div:hover .search-field__restsearch_searchbeauty_img {
+    visibility: hidden;
+}
+
+div:hover .search-field__restsearch {
+    opacity: 1;
+}
+
+.header__container__row__addressdelivery {
+    display: none;
+}
+
+main {
+    display: none;
+}
+
+footer {
+    display: none;
+}
